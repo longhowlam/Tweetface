@@ -15,8 +15,11 @@ I have set up the authentication token in a different R session and saved it in 
 Set up in an R file that is sourced in at the beginning of the shiny app. So in Keys.R you would have for example:
 
 VisionKey = "123456789"
+
 FaceKey = "qwertyuiop"
+
 Emotion = "987654321"
+
 
 At the beginning of the shiny app: source("Keys.R")
 
