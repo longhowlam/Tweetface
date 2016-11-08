@@ -6,15 +6,19 @@ R code for the tweetface shiny app, the app can be viewed running on [my little 
 
 To get the it running you will need 
 
-* twiter token. 
+* twitter token. 
+
 I have set up the authentication token in a different R session and saved it in a RDS file so that at the beginning of the shiny app I can import it. with twitter_token = readRDS("twittertoken.rds").
 
 * Microsoft keys
-Set up in a R file that is sourced in at the beginning of the shiny app
+
+Set up in an R file that is sourced in at the beginning of the shiny app. So in Keys.R you would have for example:
 
 VisionKey = "123456789"
 FaceKey = "qwertyuiop"
 Emotion = "987654321"
+
+At the beginning of the shiny app: source("Keys.R")
 
 Cheers
 Longhow
