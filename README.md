@@ -2,7 +2,7 @@
 
 ![alt text](tweetfaces.png)
 
-R code for the tweetface shiny app, the app can be viewed running on [my little shiny server](http://5.100.228.219:3838/sample-apps/TweetFace/).
+R code for the tweetface shiny app, The shiny app searches for tweets with images and runs the vision API of microsoft to get info on the images. The app can be viewed running on [my little shiny server](http://5.100.228.219:3838/sample-apps/TweetFace/).
 
 To get the it running you will need 
 
