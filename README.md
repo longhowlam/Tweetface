@@ -1,6 +1,6 @@
 # Tweetface
 
-![alt text](tweetfaces.PNG)
+![alt text](tweetfaces.png)
 
 R code for the tweetface shiny app, the app can be viewed running on [my little shiny server](http://5.100.228.219:3838/sample-apps/TweetFace/).
 
